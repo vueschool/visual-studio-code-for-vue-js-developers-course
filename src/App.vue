@@ -1,15 +1,21 @@
 <script setup lang="ts">
+import {ref} from "vue";
 import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from '@/components/HelloWorld.vue'
+import TheWelcome from './components/TheWelcome.vue';
+import IconCommunityChanged from './components/icons/IconCommunity.vue';
+const test = ref("test");
+test.value = 'something else'
 </script>
 
 <template>
   <header>
+    {{test}}
     <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
-
+    <TheWelcome/>
     <div class="wrapper">
       <HelloWorld msg="You did it!" />
-
+      <IconCommunityChanged/>
       <nav>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
