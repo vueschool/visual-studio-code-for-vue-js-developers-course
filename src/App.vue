@@ -1,15 +1,10 @@
 <script setup lang="ts">
-import { ref } from 'vue';
 import { RouterLink, RouterView } from 'vue-router';
 import HelloWorld from '@/components/HelloWorld.vue';
-
-const test = ref('test');
-test.value = 'something else';
 </script>
 
 <template>
   <header>
-    {{ test }}
     <img
       alt="Vue logo"
       class="logo"
