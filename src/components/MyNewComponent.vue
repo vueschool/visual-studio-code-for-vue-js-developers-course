@@ -1,9 +1,9 @@
+<script setup lang="ts">
+import { ref } from 'vue';
+</script>
+
 <template>
-  <div>
-    <input v-model="data" type="text" />
-  </div>
+  <div></div>
 </template>
 
-<script setup></script>
-
-<style lang="scss" scoped></style>
+<style scoped></style>
