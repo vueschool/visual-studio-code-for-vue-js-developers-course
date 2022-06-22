@@ -5,6 +5,7 @@ import { capitalize } from '@/helper';
   <div class="bg-lime-900 p-12">
     <span class="fa-twitter">Hello World</span>
   </div>
+  change updated
 </template>
 <style>
 div {
