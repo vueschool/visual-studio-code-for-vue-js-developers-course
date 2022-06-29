@@ -1,25 +1,23 @@
-# .
+# Visual Studio Code for Vue.js Developers
 
-This template should help get you started developing with Vue 3 in Vite.
+[![Visual Studio Code for Vue.js Developers](https://vueschool.io/media/4512854650c7f5739ce7a5a55a0737b5/visual-studio-code-for-vuejs-developers-full.png)](https://vueschool.io/courses/visual-studio-code-for-vue-js-developers)
 
-## Recommended IDE Setup
+This repository contains the source code for the [Visual Studio Code for Vue.js Developers ](https://vueschool.io/courses/visual-studio-code-for-vue-js-developers) course.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.vscode-typescript-vue-plugin).
+As a Vue.js developer, one of the tools you'll use most often is your code editor (IDE). In this course, learn how to make the most out of the officially recommended IDE for Vue.js development: Visual Studio Code.
 
-## Type Support for `.vue` Imports in TS
+Visual Studio Code (aka. VS Code), is a free and open source IDE that runs on Mac, Windows, and Linux. It's created by Microsoft, is super popular in the front-end development world, and has a ton of features for making work with HTML, CSS, JavaScript/TypeScript, and of course Vue.js, a pleasure.
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+During the course, we'll cover essential topics like using the official Volar extension for syntax highlighting and other Vue.js 3 feature support inside of .vue files. We'll also cover using popular Vue.js snippet extensions and even how to create your own, when existing snippets don't fit your needs.
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
+Since Vue obviously lives inside the larger ecosystem of front end development we'll also explore a wealth of other features, extensions, keyboard shortucts, and settings to streamline your daily workflow. Perhaps one of the most important being how to setup and use ESLint for code linting and Prettier for code formatting. These tools save you so much time on what should be trival issues.
 
-1. Disable the built-in TypeScript Extension
-   1. Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-   2. Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+If you're looking to improve your workflow for speed and enjoyability, then this course is a must watch!
 
-## Customize configuration
+**Intrigued?**
+[Enroll now](https://vueschool.io/courses/visual-studio-code-for-vue-js-developers)
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+---
 
 ## Project Setup
 
